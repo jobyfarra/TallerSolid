@@ -7,7 +7,7 @@ package Principal;
 import Adicionales.Aderezo;
 import Postres.*;
 import Procesos.*;
-import Leche.*;
+//import Leche.*;
 /**
  *
  * @author djurado
@@ -18,8 +18,8 @@ public class Sistema {
         // a ambos agregarles CREMA y FRUTILLAS
         // y cambiar el tipo de leche por Leche Descremada
         // Finalmente mostrar el precio final de cada uno
-        LecheEntera leche = new LecheDeslactosada();
-        ManejadorDeLeche mnj_leche = new ManejadorDeLeche();
+        //LecheEntera leche = new LecheDeslactosada();
+        //ManejadorDeLeche mnj_leche = new ManejadorDeLeche();
         
         // Producir Helado
         Helado helado_vainilla = new Helado("Vainilla");
