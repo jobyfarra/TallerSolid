@@ -26,10 +26,9 @@ public class Helado extends Postre{
         return "Helado {" + "sabor= " + this.getSabor() + ", precioParcial= " + this.getPrecioParcial() + ", aderezos= " + this.getAderezos() + '}';
     }
     
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
+ 
     }
     
     
     
-}
+

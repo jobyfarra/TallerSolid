@@ -15,11 +15,7 @@ public class Postre {
 
     }
 
-    public double calcularPrecioFinal() {
-        double precioFinal;
-        precioFinal = (precioParcial + (precioParcial * 0.12)) + (aderezos.size() * 0.50);
-        return precioFinal;
-    }
+
 
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;

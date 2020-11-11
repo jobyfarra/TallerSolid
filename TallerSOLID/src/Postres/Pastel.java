@@ -24,8 +24,6 @@ public class Pastel extends Postre {
         return "Pastel {" + "sabor= " + this.getSabor() + ", precioParcial= " + this.getPrecioParcial() + ", aderezos= " + this.getAderezos() + '}';
     }
     
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
+    
     
 }
